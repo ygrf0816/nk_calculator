@@ -1,0 +1,33 @@
+2025-10-31 10:33:55,047 - INFO - ============================================================
+2025-10-31 10:33:55,047 - INFO - NK Inversion Debug Log
+2025-10-31 10:33:55,047 - INFO - Start time: 2025-10-31 10:33:55
+2025-10-31 10:33:55,047 - INFO - ============================================================
+2025-10-31 10:33:55,047 - INFO - Input file: input/fit_test_corning_RT_sampled.csv
+2025-10-31 10:33:55,047 - INFO - Output file: output/corning_nk_tm.csv
+2025-10-31 10:33:55,047 - INFO - Method: tm
+2025-10-31 10:33:55,047 - INFO - Thickness: 0.92 mm
+2025-10-31 10:33:55,047 - INFO - Wavelength unit: nm
+2025-10-31 10:33:55,047 - INFO - Total data points: 397
+2025-10-31 10:33:55,047 - INFO - Wavelength range: [220.00, 2200.00] nm
+2025-10-31 10:33:55,047 - INFO - R range: [0.054521, 0.085329]
+2025-10-31 10:33:55,048 - INFO - T range: [0.001000, 0.941663]
+2025-10-31 10:33:55,048 - INFO - R+T range: [0.055569, 0.999000]
+2025-10-31 10:33:55,048 - INFO - Converted thickness: 920000.000000 nm
+2025-10-31 10:33:55,048 - INFO - Converted wavelength range: [220.000000, 2200.000000] nm
+2025-10-31 10:33:55,056 - INFO - Saved detailed debug data to: output/debug_corning_tm_debug.csv
+2025-10-31 10:33:55,056 - DEBUG - === TM Inversion Debug Info ===
+2025-10-31 10:33:55,056 - DEBUG - Input: wl (nm) range: [220.00, 2200.00], R range: [0.054521, 0.085329], T range: [0.001000, 0.941663], t=920000.00 nm
+2025-10-31 10:33:55,057 - DEBUG - Intermediate variables - a: min=-8.939087e-01, max=-1.830362e-03, mean=-4.952471e-02
+2025-10-31 10:33:55,057 - DEBUG - Intermediate variables - b: min=8.863371e-01, max=1.883327e+00, mean=1.817602e+00
+2025-10-31 10:33:55,057 - DEBUG - Intermediate variables - eta: min=1.118767e-09, max=8.858426e-01, mean=8.240480e-01
+2025-10-31 10:33:55,057 - DEBUG - Intermediate variables - R_as: min=2.954414e-02, max=5.854581e-02, mean=3.431118e-02
+2025-10-31 10:33:55,057 - DEBUG - Results - n: min=1.415121e+00, max=1.638391e+00, mean=1.453935e+00, nan_count=0, inf_count=0
+2025-10-31 10:33:55,057 - DEBUG - Results - k: min=5.206097e-06, max=4.747551e-04, mean=2.961522e-05, nan_count=0, inf_count=0
+2025-10-31 10:33:55,057 - INFO - ============================================================
+2025-10-31 10:33:55,057 - INFO - Final Results Summary
+2025-10-31 10:33:55,057 - INFO - n - min: 1.415121e+00, max: 1.638391e+00, mean: 1.453935e+00
+2025-10-31 10:33:55,057 - INFO - n - NaN count: 0, Inf count: 0
+2025-10-31 10:33:55,057 - INFO - k - min: 5.206097e-06, max: 4.747551e-04, mean: 2.961522e-05
+2025-10-31 10:33:55,057 - INFO - k - NaN count: 0, Inf count: 0
+2025-10-31 10:33:55,057 - INFO - ============================================================
+2025-10-31 10:33:55,057 - INFO - End time: 2025-10-31 10:33:55

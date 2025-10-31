@@ -1,0 +1,36 @@
+2025-10-31 10:27:17,227 - INFO - ============================================================
+2025-10-31 10:27:17,227 - INFO - NK Inversion Debug Log
+2025-10-31 10:27:17,227 - INFO - Start time: 2025-10-31 10:27:17
+2025-10-31 10:27:17,227 - INFO - ============================================================
+2025-10-31 10:27:17,227 - INFO - Input file: input/fit_test_borate_RT_sampled.csv
+2025-10-31 10:27:17,227 - INFO - Output file: output/borate_nk_rt.csv
+2025-10-31 10:27:17,227 - INFO - Method: rt
+2025-10-31 10:27:17,227 - INFO - Thickness: 5.19 mm
+2025-10-31 10:27:17,227 - INFO - Wavelength unit: nm
+2025-10-31 10:27:17,227 - INFO - Total data points: 397
+2025-10-31 10:27:17,227 - INFO - Wavelength range: [220.00, 2200.00] nm
+2025-10-31 10:27:17,227 - INFO - R range: [0.058540, 0.231235]
+2025-10-31 10:27:17,227 - INFO - T range: [0.001000, 0.736335]
+2025-10-31 10:27:17,227 - INFO - R+T range: [0.061961, 0.833947]
+2025-10-31 10:27:17,227 - INFO - Converted thickness: 5190000.000000 nm
+2025-10-31 10:27:17,227 - INFO - Converted wavelength range: [220.000000, 2200.000000] nm
+2025-10-31 10:27:17,236 - INFO - Saved detailed debug data to: output/debug_borate_debug.csv
+2025-10-31 10:27:17,236 - DEBUG - === RT Inversion Debug Info ===
+2025-10-31 10:27:17,236 - DEBUG - Input: wl (nm) range: [220.00, 2200.00], R range: [0.058540, 0.231235], T range: [0.001000, 0.736335], t=5190000.00 nm
+2025-10-31 10:27:17,237 - DEBUG - Intermediate variables - u: min=1.115326e+00, max=1.728654e+00, mean=1.613756e+00
+2025-10-31 10:27:17,237 - DEBUG - Intermediate variables - v: min=5.910022e-01, max=1.498424e+00, mean=1.386179e+00
+2025-10-31 10:27:17,237 - DEBUG - Intermediate variables - w=(u-v): min=1.508008e-01, max=8.179989e-01, mean=2.275776e-01
+2025-10-31 10:27:17,237 - DEBUG - Intermediate variables - R_as: min=3.883788e-02, max=2.312345e-01, mean=5.970147e-02
+2025-10-31 10:27:17,237 - DEBUG - Intermediate variables - denominator_k: min=2.681011e-07, max=1.459201e-01, mean=1.073405e-01, zero_count=0, neg_count=0
+2025-10-31 10:27:17,237 - DEBUG - Intermediate variables - log argument (T*w/denominator_k): min=1.201775e+00, max=8.817949e+02, neg_count=0
+2025-10-31 10:27:17,237 - DEBUG - Intermediate variables - sqrt argument: min=1.681598e-01, max=1.565037e+00, neg_count=0
+2025-10-31 10:27:17,237 - DEBUG - Results - n: min=1.490887e+00, max=2.852588e+00, mean=1.644417e+00, nan_count=0, inf_count=0
+2025-10-31 10:27:17,237 - DEBUG - Results - k: min=2.699724e-06, max=3.951496e-05, mean=6.999502e-06, nan_count=0, inf_count=0
+2025-10-31 10:27:17,237 - INFO - ============================================================
+2025-10-31 10:27:17,237 - INFO - Final Results Summary
+2025-10-31 10:27:17,237 - INFO - n - min: 1.490887e+00, max: 2.852588e+00, mean: 1.644417e+00
+2025-10-31 10:27:17,237 - INFO - n - NaN count: 0, Inf count: 0
+2025-10-31 10:27:17,237 - INFO - k - min: 2.699724e-06, max: 3.951496e-05, mean: 6.999502e-06
+2025-10-31 10:27:17,237 - INFO - k - NaN count: 0, Inf count: 0
+2025-10-31 10:27:17,237 - INFO - ============================================================
+2025-10-31 10:27:17,237 - INFO - End time: 2025-10-31 10:27:17

@@ -1,0 +1,36 @@
+2025-10-31 10:05:40,028 - INFO - ============================================================
+2025-10-31 10:05:40,028 - INFO - NK Inversion Debug Log
+2025-10-31 10:05:40,028 - INFO - Start time: 2025-10-31 10:05:40
+2025-10-31 10:05:40,028 - INFO - ============================================================
+2025-10-31 10:05:40,028 - INFO - Input file: input/fit_test_borate_RT_sampled.csv
+2025-10-31 10:05:40,028 - INFO - Output file: output/borate_nk_rt.csv
+2025-10-31 10:05:40,028 - INFO - Method: rt
+2025-10-31 10:05:40,028 - INFO - Thickness: 5.19 mm
+2025-10-31 10:05:40,028 - INFO - Wavelength unit: nm
+2025-10-31 10:05:40,028 - INFO - Total data points: 397
+2025-10-31 10:05:40,028 - INFO - Wavelength range: [220.00, 2200.00] nm
+2025-10-31 10:05:40,029 - INFO - R range: [0.058540, 0.231235]
+2025-10-31 10:05:40,029 - INFO - T range: [0.000000, 0.736335]
+2025-10-31 10:05:40,029 - INFO - R+T range: [0.060961, 0.833947]
+2025-10-31 10:05:40,029 - INFO - Converted thickness: 5190000.000000 nm
+2025-10-31 10:05:40,029 - INFO - Converted wavelength range: [220.000000, 2200.000000] nm
+2025-10-31 10:05:40,038 - INFO - Saved detailed debug data to: output/debug_debug.csv
+2025-10-31 10:05:40,038 - DEBUG - === RT Inversion Debug Info ===
+2025-10-31 10:05:40,038 - DEBUG - Input: wl (nm) range: [220.00, 2200.00], R range: [0.058540, 0.231235], T range: [0.000000, 0.736335], t=5190000.00 nm
+2025-10-31 10:05:40,038 - DEBUG - Intermediate variables - u: min=1.115326e+00, max=1.728654e+00, mean=1.613756e+00
+2025-10-31 10:05:40,038 - DEBUG - Intermediate variables - v: min=5.909999e-01, max=1.498424e+00, mean=1.386179e+00
+2025-10-31 10:05:40,039 - DEBUG - Intermediate variables - w=(u-v): min=1.508008e-01, max=8.180003e-01, mean=2.275776e-01
+2025-10-31 10:05:40,039 - DEBUG - Intermediate variables - R_as: min=3.883788e-02, max=2.312348e-01, mean=5.970148e-02
+2025-10-31 10:05:40,039 - DEBUG - Intermediate variables - denominator_k: min=-2.220446e-16, max=1.459201e-01, mean=1.073405e-01, zero_count=29, neg_count=1
+2025-10-31 10:05:40,039 - DEBUG - Intermediate variables - log argument (T*w/denominator_k): min=-3.683946e+07, max=inf, neg_count=1
+2025-10-31 10:05:40,039 - DEBUG - Intermediate variables - sqrt argument: min=nan, max=nan, neg_count=29
+2025-10-31 10:05:40,039 - DEBUG - Results - n: min=nan, max=nan, mean=nan, nan_count=30, inf_count=0
+2025-10-31 10:05:40,039 - DEBUG - Results - k: min=nan, max=nan, mean=nan, nan_count=1, inf_count=29
+2025-10-31 10:05:40,039 - INFO - ============================================================
+2025-10-31 10:05:40,039 - INFO - Final Results Summary
+2025-10-31 10:05:40,039 - INFO - n - min: nan, max: nan, mean: nan
+2025-10-31 10:05:40,039 - INFO - n - NaN count: 30, Inf count: 0
+2025-10-31 10:05:40,039 - INFO - k - min: nan, max: nan, mean: nan
+2025-10-31 10:05:40,039 - INFO - k - NaN count: 1, Inf count: 29
+2025-10-31 10:05:40,039 - INFO - ============================================================
+2025-10-31 10:05:40,039 - INFO - End time: 2025-10-31 10:05:40
